@@ -5,7 +5,9 @@ const Welcome = (props) => {
   return (
     <>
       <h1>Hey ! {props.name}</h1>
-      <Child />
+      <section>
+        <Child />
+      </section>
     </>
   );
 };
