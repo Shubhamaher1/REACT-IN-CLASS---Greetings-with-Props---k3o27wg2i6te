@@ -6,7 +6,7 @@ const Welcome = (props) => {
     <>
       <h1>Hey ! {props.name}</h1>
       <section>
-        <Child />
+       <h2>Welcome to Newton School.</h2>
       </section>
     </>
   );
